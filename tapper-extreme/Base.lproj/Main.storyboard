@@ -33,6 +33,9 @@
                                     <constraint firstAttribute="height" constant="120" id="H73-44-khI"/>
                                 </constraints>
                                 <state key="normal" image="playbtn"/>
+                                <connections>
+                                    <action selector="onPlayBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="keh-I1-odd"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Tp-ul-GE7" userLabel="TapsTxt">
                                 <rect key="frame" x="176" y="279" width="249" height="30"/>
@@ -80,6 +83,13 @@
                             <constraint firstItem="dX3-Xr-GrI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xn2-jg-eOA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="howManyTapsTxt" destination="5Tp-ul-GE7" id="Ftv-6l-ndn"/>
+                        <outlet property="logoImg" destination="8NU-Wz-G3d" id="hch-SX-OBd"/>
+                        <outlet property="playBtn" destination="Hd1-8G-nFD" id="sYv-Rn-POB"/>
+                        <outlet property="tapBtn" destination="Uel-9J-8Ll" id="5og-xd-DUz"/>
+                        <outlet property="tapsLbl" destination="PBF-Aa-XVw" id="FOv-We-2Yo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
