@@ -52,6 +52,9 @@
                                     <constraint firstAttribute="height" constant="188" id="tC5-6M-NUW"/>
                                 </constraints>
                                 <state key="normal" image="coin"/>
+                                <connections>
+                                    <action selector="onCoinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7y9-16-Tmi"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBF-Aa-XVw" userLabel="TapsLbl">
                                 <rect key="frame" x="124" y="224" width="353" height="97"/>
