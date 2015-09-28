@@ -50,7 +50,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
     func restartGame() {
         maxTaps = 0
         howManyTapsTxt.text = ""
